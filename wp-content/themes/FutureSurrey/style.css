@@ -142,7 +142,7 @@ h3#reply-title,
 .reply,
 .widget-title,
 .wp-caption-text {
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: "Istok Web", "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 input[type=submit] {
 	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
@@ -344,6 +344,7 @@ a:hover {
 	line-height: 36px;
 	margin: 0 0 18px 0;
 	width: 700px;
+    display:none
 }
 #site-title a {
 	color: #000;
@@ -360,7 +361,6 @@ a:hover {
 
 /* This is the custom header image */
 #branding img {
-	border-top: 4px solid #000;
 	border-bottom: 1px solid #000;
 	display: block;
 	float: left;
@@ -561,7 +561,7 @@ div.menu li {
 	color: #ff4b33;
 }
 #content .entry-title {
-	color: #000;
+	color: #1F75BC;
 	font-size: 21px;
 	font-weight: bold;
 	line-height: 1.3em;
@@ -569,7 +569,7 @@ div.menu li {
 }
 .entry-title a:link,
 .entry-title a:visited {
-	color: #000;
+	color: #1F75BC;
 	text-decoration: none;
 }
 .entry-title a:active,
@@ -1213,6 +1213,8 @@ h3#reply-title {
 
 #footer {
 	margin-bottom: 20px;
+    background: url('/wp-content/themes/futuresurrey/images/footers/futuresurrey_footer.jpg');
+    height:79px;
 }
 #colophon {
 	border-top: 4px solid #000;
